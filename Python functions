@@ -1,0 +1,24 @@
+This is a short code with i am learning on how to code in python and i am learning functions.
+But when i´m going to debug this code warnings appears.
+I am coding python 3 in Spyder.
+This is the code:
+
+def iva():    
+    total=int(input('cuanto has gastado?'))
+    num = int(input('que tipo de producto has comprado? 1) leche 2) pan 3) leche 4) huevos'))
+    if num == 1:
+        iv = 6
+    elif num == 2:
+        iv = 8
+    elif num == 3:
+        iv = 12
+    else:
+        iv = 16
+iva1 = (total*iv/100)
+print ('el impuesto de este producto es:')
+print (iva1)
+return iva1
+iva()
+print ('programa terminado')
+
+Anybody knows what is going on?
